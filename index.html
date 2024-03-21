@@ -30,6 +30,12 @@
             localStorage.removeItem("username");
             window.location.href = "login.html";
         }
+        function isLogged (){
+            if(localStorage.getItem("username")==null){
+                window.location.href="login.html";
+            }
+        }
+        isLogged();
     </script>
 
 </body>
