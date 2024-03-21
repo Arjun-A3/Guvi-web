@@ -61,6 +61,7 @@ function openSettings() {
         success: function(response) {
           // Handle success response here
           console.log('Data sent successfully');
+          alert("Data added to dataBase");
           console.log(response); // You can optionally do something with the response
           window.location.href="profile.html";
         },

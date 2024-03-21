@@ -28,11 +28,13 @@ $(document).ready(function(){
                 }
                 // Handle success
                 console.log(response);
-                window.location.href="logon.html";
+                alert("Account created Successfully");
+                window.location.href="login.html";
                 // You can add further handling here, like showing a success message to the user.
             },
             error: function(xhr, status, error){
                 // Handle errors
+                alert("Something went wrong!!");
                 console.error(xhr.responseText);
                 // You can add further error handling here, like showing an error message to the user.
             }
