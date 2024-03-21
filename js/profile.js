@@ -121,6 +121,12 @@ function openSettings() {
       }
     }
     checkUsernameInMongoDB();
+    function isLogged (){
+      if(localStorage.getItem("username")==null){
+          window.location.href="login.html";
+      }
+  }
+  isLogged();
     //   function submitUpdate() {
       //     // Gather the data from the form fields
       //     var formData = {
