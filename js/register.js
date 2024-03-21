@@ -43,6 +43,7 @@ $(document).ready(function(){
 });
 function isLoggedIn(){
     if(window.localStorage.getItem("username")!=null){
+        alert("Already logged in!!");
         window.location.href = "index.html";
     }
 }
