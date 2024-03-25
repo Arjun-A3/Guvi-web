@@ -5,7 +5,7 @@ https://guvi-project-kappa.vercel.app/login.html
 
 # User Registration and Profile Management System
 
-This project is a simple user registration and profile management system developed using HTML, CSS, JavaScript, PHP, and MySQL.
+This project is a simple user registration and profile management system developed using HTML, CSS, JavaScript, PHP, MongoDB and MySQL.
 It allows users to register with a username, email, and password, and then manage their profile information including bio, contact details, personal information, interests, education, and projects.
 
 ## Features
